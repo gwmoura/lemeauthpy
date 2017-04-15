@@ -18,6 +18,8 @@ AUTHOR_EMAIL = "gwmoura@gcodetec.com"
 URL = "github.com/lememilitar/lemeauthpy"
 VERSION = __import__(PACKAGE).__version__
 
+install_requires = ['requests']
+
 setup(
     name=NAME,
     version=VERSION,
@@ -28,6 +30,7 @@ setup(
     license="BSD",
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
+    install_requires=install_requires,
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
