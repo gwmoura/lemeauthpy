@@ -16,7 +16,7 @@ DESCRIPTION = "Package to use Leme API to authenticate"
 AUTHOR = "George Moura"
 AUTHOR_EMAIL = "gwmoura@gcodetec.com"
 URL = "github.com/lememilitar/lemeauthpy"
-VERSION = __import__(PACKAGE).__version__
+VERSION = "0.0.1"
 
 install_requires = ['requests']
 
